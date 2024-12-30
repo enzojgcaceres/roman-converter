@@ -4,9 +4,9 @@ import { useState } from 'react';
 
 export default function Home() {
   const [romanInput, setRomanInput] = useState<string>('');
-  const [decimalInput, setDecimalInput] = useState<string>('');
+  // const [decimalInput, setDecimalInput] = useState<string>('');
   const [romanResult, setRomanResult] = useState<number | string>('');
-  const [decimalResult, setDecimalResult] = useState<string>('');
+  // const [decimalResult, setDecimalResult] = useState<string>('');
 
   const romanoAEntero = (romano: string): number | string => {
     const tablaRomanos: Record<string, number> = {
