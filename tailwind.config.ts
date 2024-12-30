@@ -9,9 +9,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+       marble: '#f4f4f4',
+       gold: '#d4af37',
+       terracotta: '#e2725b',
+       bronze: '#cd7f32',
       },
+      fontFamily: {
+        roman: ['"Cinzel"', 'serif'],
+      }
     },
   },
   plugins: [],
